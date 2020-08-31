@@ -1,0 +1,223 @@
+ 
+div.container1{
+    width : 200px;
+    height : 200px;
+    border : 1px solid red;
+}
+
+
+div.circle {
+    width : 20px;
+    height : 20px;
+    background-color : red;
+    border-radius : 20px;
+    animation-name : circle;
+    animation-duration : 2000ms;
+    animation-timing-function : ease-out;
+    animation-iteration-count : infinite;
+    
+    animation-play-state : running;
+    animation-direction: alternate;
+    animation-delay : 0ms;
+    position : relative;
+
+}
+
+@keyframes circle {
+    0%{top:0px; left:0px; background-color:aqua}
+    20%{top:0px; left:180px; background-color:yellow}
+    40%{top:0px; left:90px; background-color:green}
+    60%{top:180px; left:90px; background-color:red}
+    80%{top:180px; left:0px; background-color:blue}
+    100%{top:100px; left:0px; background-color:pink}
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+div.container2{
+    margin-top : -201px;
+    margin-left : 220px;
+    width : 200px;
+    height : 200px;
+    border : 1px solid red;
+}
+
+
+div.circle1 {
+    width : 20px;
+    height : 20px;
+    background-color : red;
+    border-radius : 20px;
+    animation-name : circle1;
+    animation-duration : 2000ms;
+    animation-timing-function : ease-out;
+    animation-iteration-count : infinite;
+    
+    animation-play-state : running;
+    animation-direction: alternate;
+    animation-delay : 0ms;
+    position : relative;
+
+}
+
+@keyframes circle1 {
+    0%{top:0px; left:0px; background-color:aqua}
+    40%{top:180px; left:0px; background-color:yellow}
+    60%{top:180px; left:180px; background-color:green}
+    100%{top:0px; left:180px; background-color:red}
+    
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+div.container3{
+    margin-top : -202px;
+    margin-left : 440px;
+    width : 200px;
+    height : 200px;
+    border : 1px solid red;
+}
+
+
+div.circle2 {
+    width : 20px;
+    height : 20px;
+    background-color : red;
+    border-radius : 20px;
+    animation-name : circle2;
+    animation-duration : 2000ms;
+    animation-timing-function : ease-out;
+    animation-iteration-count : infinite;
+    
+    animation-play-state : running;
+    animation-direction: alternate;
+    animation-delay : 0ms;
+    position : relative;
+
+}
+
+@keyframes circle2 {
+    0%{top:0px; left:180px; background-color:aqua}
+    20%{top:0px; left:0px; background-color:yellow}
+    40%{top:100px; left:0px; background-color:green}
+    50%{top:100px; left:100px; background-color:red}
+    60%{top:100px; left:0px; background-color:blue}
+    80%{top:180px; left:0px; background-color:pink}
+    100%{top:180px; left:180px; background-color:violet}
+    
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+div.container4{
+    margin-top : -202px;
+    margin-left : 660px;
+    width : 200px;
+    height : 200px;
+    border : 1px solid red;
+}
+
+
+div.circle3 {
+    width : 20px;
+    height : 20px;
+    background-color : red;
+    border-radius : 20px;
+    animation-name : circle3;
+    animation-duration : 2000ms;
+    animation-timing-function : ease-out;
+    animation-iteration-count : infinite;
+    
+    animation-play-state : running;
+    animation-direction: alternate;
+    animation-delay : 0ms;
+    position : relative;
+
+}
+
+@keyframes circle3 {
+    0%{top:0px; left:180px; background-color:aqua}
+    20%{top:0px; left:0px; background-color:yellow}
+    40%{top:100px; left:0px; background-color:green}
+    50%{top:100px; left:100px; background-color:red}
+    60%{top:100px; left:0px; background-color:blue}
+    80%{top:180px; left:0px; background-color:pink}
+    100%{top:180px; left:180px; background-color:violet}
+    
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+div.container5{
+    margin-top : -202px;
+    margin-left : 880px;
+    width : 200px;
+    height : 200px;
+    border : 1px solid red;
+}
+
+
+div.circle4 {
+    width : 20px;
+    height : 20px;
+    background-color : red;
+    border-radius : 20px;
+    animation-name : circle4;
+    animation-duration : 2000ms;
+    animation-timing-function : ease-out;
+    animation-iteration-count : infinite;
+    
+    animation-play-state : running;
+    animation-direction: alternate;
+    animation-delay : 0ms;
+    position : relative;
+
+}
+
+@keyframes circle4 {
+    0%{top:0px; left:0px; background-color:aqua}
+    
+    50%{top:180px; left:0px; background-color:yellow}
+    
+    100%{top:180px; left:180px; background-color:green}
+    
+}
+/* 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+div.container6{
+    margin-top : -202px;
+    margin-left : 1100px;
+    width : 200px;
+    height : 200px;
+    border : 1px solid red;
+}
+
+
+div.circle5 {
+    width : 20px;
+    height : 20px;
+    background-color : red;
+    border-radius : 20px;
+    animation-name : circle5;
+    animation-duration : 2000ms;
+    animation-timing-function : ease-out;
+    animation-iteration-count : infinite;
+    
+    animation-play-state : running;
+    animation-direction: alternate;
+    animation-delay : 0ms;
+    position : relative;
+
+}
+
+@keyframes circle5 {
+    0%{top:0px; left:0px; background-color:aqua}
+    20%{top:0px; left:180px; background-color:yellow}
+    40%{top:0px; left:90px; background-color:green}
+    60%{top:180px; left:90px; background-color:blue}
+    80%{top:180px; left:180px; background-color:violet}
+    100%{top:180px; left:0px; background-color:pink}
+}
+
+
